@@ -1,0 +1,17 @@
+server:
+  port: 9093
+  
+spring:
+  application:
+    name: rating-service
+  
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: rkd
+    password: rkd
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+        
