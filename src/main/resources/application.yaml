@@ -14,4 +14,13 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaltzone: http://localhost:8761/eureka          
         
